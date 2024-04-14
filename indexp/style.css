@@ -1,0 +1,78 @@
+.fondogt {
+    background: linear-gradient(90deg, #00aaee, #c90469);
+    background-size: 400% 300%;
+    animation: BgGradient 10s ease infinite;
+}
+
+
+/*
+.fondogt {
+    /* font-family: Helvetica, san-serif;*
+    background: -webkit-linear-gradient(90deg, #00aaee 10%, #DD2476 90%);
+    /* Chrome 10+, Saf5.1+ *
+    background: -moz-linear-gradient(90deg, #00aaee 10%, #DD2476 90%);
+    /* FF3.6+ *
+    background: -ms-linear-gradient(90deg, #00aaee 10%, #DD2476 90%);
+    /* IE10 *
+    background: -o-linear-gradient(90deg, #00aaee 10%, #DD2476 90%);
+    /* Opera 11.10+ *
+    background: linear-gradient(90deg, #00aaee 10%, #DD2476 90%);
+    /* W3C *
+}*/
+
+.marco {
+    border: 2px cyan solid;
+    border-radius: 10px;
+}
+
+.cambio {
+    color: #00aaee;
+    font-weight: bold;
+    text-shadow: 2px 2px cyan;
+}
+
+hr {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 2px solid magenta;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.inferior {
+    border-bottom: 2px #DD2476 solid;
+    border-radius: 10px;
+}
+
+.sai {
+    color: #00aaee;
+}
+
+h5 {
+    color: #DD2476;
+    text-shadow: 1px 1px rgb(255, 0, 13);
+}
+
+.color {
+    color: blanchedalmond;
+    font-family: cursive;
+}
+
+
+/*.fondogt {
+    background: #008080;
+    border: 2px solid #999999;
+}*/
+
+@keyframes BgGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
